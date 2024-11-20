@@ -6,11 +6,11 @@
     height: 100%;
     background: #ffc0cb;
     z-index: 10;
-    transition: transform 1s ease-out;
-    -webkit-transition: transform 1s ease-out;
-    -moz-transition: transform 1s ease-out;
-    -ms-transition: transform 1s ease-out;
-    -o-transition: transform 1s ease-out;
+    transition: transform 1s ease-out, visibility 1s;
+    -webkit-transition: transform 1s ease-out, visibility 1s;
+    -moz-transition: transform 1s ease-out, visibility 1s;
+    -ms-transition: transform 1s ease-out, visibility 1s;
+    -o-transition: transform 1s ease-out, visibility 1s;
 }
 
 .landingpage {
