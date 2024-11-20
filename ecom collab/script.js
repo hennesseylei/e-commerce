@@ -3,7 +3,7 @@ window.addEventListener("load", () => {
     const content = document.querySelector(".landingpage");
 
     setTimeout(() => {
-        overlay.style.transform = "translateX(100%)";
+        overlay.style.transform = "0";
         content.style.opacity = "1";
     }, 2000);
 });
