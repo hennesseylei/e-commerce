@@ -13,6 +13,23 @@
     -o-transition: transform 1s ease-out, visibility 1s;
 }
 
+.logocontent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+    transition: fade-out 1s;
+    -webkit-transition: fade-out 1s;
+    -moz-transition: fade-out 1s;
+    -ms-transition: fade-out 1s;
+    -o-transition: fade-out 1s;
+}
+
 .landingpage {
     transition: opacity 1s ease-in;
 }
