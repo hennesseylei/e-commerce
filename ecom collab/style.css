@@ -1,4 +1,4 @@
-.overlay {
+.pageoverlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -18,7 +18,7 @@
     -o-transition: transform 1s ease-out;
 }
 
-@keyframes revealContent {
+@keyframes reveallandingpage {
     0% {
         transform: translate(-100%);
         -webkit-transform: translate(-100%);
