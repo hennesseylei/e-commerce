@@ -15,7 +15,6 @@
 
 .landingpage {
     transition: opacity 1s ease-in;
-    opacity: 0;
 }
 
 @keyframes zoomEffect {
