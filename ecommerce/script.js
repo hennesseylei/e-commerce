@@ -17,3 +17,30 @@ function fadeOut() {
 
 document.querySelector(".pageoverlay").addEventListener("click", fadeOut);
 document.querySelector(".landingpage"),addEventListener("click", fadeOut);
+
+
+    let slideTitle1 =
+    document.getElementById("slide-title");
+    let slideStats1 =
+    document.getElementById("slide-stats");
+    let nextSlideTitle =
+    document.querySelectorAll(`[data-slide-stats="${slideId}"]`)[0].innerHTML;
+
+    TweenLite.fromTo(slideTitle1, 0.5,
+        {
+            autoAlpha: 1,
+            y: 0 },
+        {
+            autoAlpha: 0,
+            y : 20,
+            ease: "Expo.easeIn",
+            onComplete: function () {
+            slideTitle1.innerHTML = nextSlideTitle;
+
+            TweenLite.to(slideTitle1, 0.5, {
+                autoAlpha: 1,
+                y: 0 
+            });
+            }
+        }
+    );
