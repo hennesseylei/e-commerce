@@ -117,7 +117,7 @@ const coupons = [
         </div>
       </div>
       <button class="cart-remove">
-        <img src="images/delete-bin-6-line.png" alt="delete">
+        <img src="ecommerce/images/delete-bin-6-line.png" alt="delete">
       </button>
     `;
   
