@@ -167,7 +167,7 @@ const coupons = [
       const quantity = parseInt(quantityElement.textContent);
       total += price * quantity;
     });
-    totalPriceElement.textContent = `$${total.toFixed(2)}`; // Fix to show price with two decimal points
+    totalPriceElement.textContent = `$${total.toFixed(2)}`; // Fixed to show price with two decimal points
   };
   
   
