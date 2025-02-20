@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<div>
+    <div id="coupon-bar" class="coupon-bar">
+      <p id="coupon-text">Use code <strong>DISCOUNT10</strong> for 10% off!</p>
+    </div>
+    <!--NAVIGATION-->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <!-- Logo on the left -->
+        <div class="logo">
+          <a href="#">Logo.</a>
+        </div>
+  
+        <ul class="navbar-center">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">HERE</a></li>
+          <li><a href="#">HERE</a></li>
+          <li><a href="#">HERE</a></li>
+        </ul>
+        <!-- Search and Cart Section on the right -->
+        <div class="navbar-right">
+          <div class="search-container">
+            <img src="images/search.png" alt="Search Icon" class="search-icon" id="search-icon">
+            <input type="text" class="search-bar" id="search-bar" placeholder="Search products...">
+          </div>
+          <div class="user-icon">
+            <img src="images\user.png" alt="User Icon" class="user-icon" id="user-icon">
+          </div>
+          <div class="cart-icon">
+              <img src="images/bag.png" alt="Shopping Cart">
+              <span class="cart-item-count" id="cart-item-count">0</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+      <!--CART MENU-->
+      <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content"> <!--producr display for menu-->
+          <!--<div class="cart-box">
+            <img src="images\productsmp.png" class="cart-img">
+            <div class="cart-detail">
+              <h2 class="cart-product-title">Wand1</h2>
+              <span class="cart-price">$100</span>
+              <div class="cart-quantity">
+                <button id="decrement">-</button>
+                <span class="number">1</span>
+                <button id="increment">+</button>
+              </div>
+            </div>
+            <button class="cart-remove">
+              <img src="images/delete-bin-6-line.png" alt="delete">
+            </button>
+          </div>-->
+        </div>
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">$0</div>
+        </div>
+        <a href="review.html">
+        <button class="btn-checkout">Check Out</button>
+        </a>
+        <button class="cart-close">
+          <img src="images\close-circle-fill.png">
+        </button>
+    </div>
+    
+    <!--Login-->
+    <div class="login-container">
+      <div class ="user-container">
+        <h4>Login</h4>
+        <div class="login">
+            <label for="uname">Username</label>
+            <input type="text" id="uname" name="username" placeholder="fluttershy203">
+            <label for="pword">Password</label>
+            <input type="text" id="uname" name="username" placeholder="Password">
+            <button>Login</button>
+        </div>
+
+        <div class="user-container">
+          <h4>Create Account</h4>
+            <div class="signup"
+                <label for="uname">Username</label>
+                <input type="text" id="uname" name="username" placeholder="fluttershy203">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="friendship@hotmail.com">
+                <label for="pword">Password</label>
+                <input type="text" id="uname" name="password" placeholder="Password">
+            <button>Sign Up</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+</html>
